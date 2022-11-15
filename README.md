@@ -5,10 +5,10 @@ Esta é uma demonstração de funções que implementam alguns cálculos estatí
 Até o momento, estas são algumas das fórmulas estatísticas que estão presentes:
 
 * Média Aritmética
-## $$\mu = \frac{1}{n} \sum_{i=1}^{n} x_i$$
+$$\mu = \frac{1}{n} \sum_{i=1}^{n} x_i$$
 
 * Média Aritmética Ponderada
-## $$\mu_p = \frac{1}{\sum_{i=1}^{n} {w_i}} \sum_{i=1}^{n} w_i x_i$$
+$$\mu_p = \frac{1}{\sum_{i=1}^{n} w_i} \sum_{i=1}^{n} w_i x_i$$
 
 * Média Geométrica
 ## $$\mu_g = \sqrt[n]{\prod_{i=1}^{n} x_i}$$
