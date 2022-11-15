@@ -5,16 +5,16 @@ Esta é uma demonstração de funções que implementam alguns cálculos estatí
 Até o momento, estas são algumas das fórmulas estatísticas que estão presentes:
 
 * Média Aritmética
-### $$\\mu = \\frac{1}{n} \\sum_{i=1}^{n} x_i$$
+## $$\\mu = \\frac{1}{n} \\sum_{i=1}^{n} x_i$$
 
 * Média Aritmética Ponderada
-### $$\\mu_p = \\frac{1}{\\sum_{i=1}^{n} w_i} \\sum_{i=1}^{n} w_i x_i$$
+## $$\\mu_p = \\frac{1}{\\sum_{i=1}^{n} w_i} \\sum_{i=1}^{n} w_i x_i$$
 
 * Média Geométrica
-### $$\\mu_g = \\sqrt[n]{\\prod_{i=1}^{n} x_i}$$
+## $$\\mu_g = \\sqrt[n]{\\prod_{i=1}^{n} x_i}$$
 
 * Média Geométrica Ponderada
-### $$\\mu_{gp} = \\sqrt[\\sum_{i=1}^{n} w_i]{\\prod_{i=1}^{n} {x_i}^{w_i}}$$
+## $$\\mu_{gp} = \\sqrt[\\sum_{i=1}^{n} w_i]{\\prod_{i=1}^{n} {x_i}^{w_i}}$$
 
 * Média Harmônica
 ### $$\\mu_h = \\frac{n}{\\sum_{i=1}^{n} \\frac{1}{x_i}}$$
@@ -120,7 +120,7 @@ Até o momento, estas são algumas das fórmulas estatísticas que estão presen
 * Quartis
 ### $$i = \\frac{j(n+1)}{4}$$
 ### $$Q_j = x_i + \\biggl(\\frac{j(n+1)}{4} - i\\biggl) (x_{i+1} - x_i)$$
-para j = 1, 2 e 3
+*para j = 1, 2 e 3*
 
 Além de funções para:
 
