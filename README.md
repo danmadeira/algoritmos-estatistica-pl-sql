@@ -8,118 +8,118 @@ Até o momento, estas são algumas das fórmulas estatísticas que estão presen
 ## $$\mu = \frac{1}{n} \sum_{i=1}^{n} x_i$$
 
 * Média Aritmética Ponderada
-## $$\mu_p = \frac{1}{\sum_{i=1}^{n} w_i \right} \sum_{i=1}^{n} w_i x_i$$
+## $$\mu_p = \frac{1}{\sum_{i=1}^{n} w_i} \sum_{i=1}^{n} w_i x_i$$
 
 * Média Geométrica
-## $$\\mu_g = \\sqrt[n]{\\prod_{i=1}^{n} x_i}$$
+## $$\mu_g = \sqrt[n]{\prod_{i=1}^{n} x_i}$$
 
 * Média Geométrica Ponderada
-## $$\\mu_{gp} = \\sqrt[\\sum_{i=1}^{n} w_i]{\\prod_{i=1}^{n} {x_i}^{w_i}}$$
+## $$\mu_{gp} = \sqrt[\sum_{i=1}^{n} w_i]{\prod_{i=1}^{n} {x_i}^{w_i}}$$
 
 * Média Harmônica
-## $$\\mu_h = \\frac{n}{\\sum_{i=1}^{n} \\frac{1}{x_i}}$$
+## $$\mu_h = \frac{n}{\sum_{i=1}^{n} \frac{1}{x_i}}$$
 
 * Média Harmônica Ponderada
-## $$\\mu_{hp} = \\frac{\\sum_{i=1}^{n} w_i}{\\sum_{i=1}^{n} \\frac{w_i}{x_i}}$$
+## $$\mu_{hp} = \frac{\sum_{i=1}^{n} w_i}{\sum_{i=1}^{n} \frac{w_i}{x_i}}$$
 
 * Média Quadrática
-## $$\\mu_q = \\sqrt{\\frac{1}{n} \\sum_{i=1}^{n} {x_i}^2}$$
+## $$\mu_q = \sqrt{\frac{1}{n} \sum_{i=1}^{n} {x_i}^2}$$
 
 * Média Quadrática Ponderada
-## $$\\mu_{qp} = \\sqrt{\\frac{1}{\\sum_{i=1}^{n} w_i} \\sum_{i=1}^{n} w_i{x_i}^2}$$
+## $$\mu_{qp} = \sqrt{\frac{1}{\sum_{i=1}^{n} w_i} \sum_{i=1}^{n} w_i{x_i}^2}$$
 
 * Média Cúbica
-## $$\\mu_c = \\sqrt[3]{\\frac{1}{n} \\sum_{i=1}^{n} {x_i}^3}$$
+## $$\mu_c = \sqrt[3]{\frac{1}{n} \sum_{i=1}^{n} {x_i}^3}$$
 
 * Média Cúbica Ponderada
-## $$\\mu_{cp} = \\sqrt[3]{\\frac{1}{\\sum_{i=1}^{n} w_i} \\sum_{i=1}^{n} w_i {x_i}^3}$$
+## $$\mu_{cp} = \sqrt[3]{\frac{1}{\sum_{i=1}^{n} w_i} \sum_{i=1}^{n} w_i {x_i}^3}$$
 
 * Média Desarmônica
-## $$\\mu_d = \\frac{2}{\\frac{1}{\\frac{\\sum_{i=1}^{n} x_i}{n}} + \\frac{1}{\\frac{{\\bigl(\\frac{\\sum_{i=1}^{n} x_i}{n}\\bigl)}^2}{\\frac{n}{\\sum_{i=1}^{n} \\frac{1}{x_i}}}}}$$
+## $$\mu_d = \frac{2}{\frac{1}{\frac{\sum_{i=1}^{n} x_i}{n}} + \frac{1}{\frac{{\bigl(\frac{\sum_{i=1}^{n} x_i}{n}\bigl)}^2}{\frac{n}{\sum_{i=1}^{n} \frac{1}{x_i}}}}}$$
 
 * Média Desarmônica Ponderada
-## $$\\mu_{dp} = \\frac{2}{\\frac{1}{\\frac{\\sum_{i=1}^{n} w_i x_i}{\\sum_{i=1}^{n} w_i}} + \\frac{1}{\\frac{{\\Bigl(\\frac{\\sum_{i=1}^{n} w_i x_i}{\\sum_{i=1}^{n} w_i}\\Bigl)}^2}{\\frac{\\sum_{i=1}^{n} w_i}{\\sum_{i=1}^{n} \\frac{w_i}{x_i}}}}}$$
+## $$\mu_{dp} = \frac{2}{\frac{1}{\frac{\sum_{i=1}^{n} w_i x_i}{\sum_{i=1}^{n} w_i}} + \frac{1}{\frac{{\Bigl(\frac{\sum_{i=1}^{n} w_i x_i}{\sum_{i=1}^{n} w_i}\Bigl)}^2}{\frac{\sum_{i=1}^{n} w_i}{\sum_{i=1}^{n} \frac{w_i}{x_i}}}}}$$
 
 * Mediana
 
 * Moda
 
 * Desvio Absoluto Médio
-## $$D_{am} = \\frac{1}{n} \\sum_{i=1}^{n} |x_i - \\mu|$$
+## $$D_{am} = \frac{1}{n} \sum_{i=1}^{n} |x_i - \mu|$$
 
 * Desvio Absoluto Mediano
-## $$D_{am} = Md(|x_i - \\tilde{x}|)$$
+## $$D_{am} = Md(|x_i - \tilde{x}|)$$
 
 * Variância Populacional
-## $$\\sigma^2 = \\frac{1}{n} \\sum_{i=1}^{n} (x_i - \\mu)^2$$
+## $$\sigma^2 = \frac{1}{n} \sum_{i=1}^{n} (x_i - \mu)^2$$
 
 * Desvio Padrão Populacional
-## $$\\sigma = \\sqrt{\\frac{1}{n} \\sum_{i=1}^{n} (x_i - \\mu)^2}$$
+## $$\sigma = \sqrt{\frac{1}{n} \sum_{i=1}^{n} (x_i - \mu)^2}$$
 
 * Variância Amostral
-## $$s^2 = \\frac{1}{n-1} \\sum_{i=1}^{n} (x_i - \\bar{x})^2$$
+## $$s^2 = \frac{1}{n-1} \sum_{i=1}^{n} (x_i - \bar{x})^2$$
 
 * Desvio Padrão Amostral
-## $$s = \\sqrt{\\frac{1}{n-1} \\sum_{i=1}^{n} (x_i - \\bar{x})^2}$$
+## $$s = \sqrt{\frac{1}{n-1} \sum_{i=1}^{n} (x_i - \bar{x})^2}$$
 
 * Variância Populacional (para dados agrupados)
-## $$\\sigma^2 = \\frac{1}{\\sum_{i=1}^{n} w_i} \\sum_{i=1}^{n} \\bigl((x_i - \\mu)^2 w_i\\bigl)$$
+## $$\sigma^2 = \frac{1}{\sum_{i=1}^{n} w_i} \sum_{i=1}^{n} \bigl((x_i - \mu)^2 w_i\bigl)$$
 
 * Desvio Padrão Populacional (para dados agrupados)
-## $$\\sigma = \\sqrt{\\frac{1}{\\sum_{i=1}^{n} w_i} \\sum_{i=1}^{n} \\bigl((x_i - \\mu)^2 w_i\\bigl)}$$
+## $$\sigma = \sqrt{\frac{1}{\sum_{i=1}^{n} w_i} \sum_{i=1}^{n} \bigl((x_i - \mu)^2 w_i\bigl)}$$
 
 * Variância Amostral (para dados agrupados)
-## $$s^2 = \\frac{1}{\\sum_{i=1}^{n} w_i - 1} \\sum_{i=1}^{n} \\bigl((x_i - \\bar{x})^2 w_i\\bigl)$$
+## $$s^2 = \frac{1}{\sum_{i=1}^{n} w_i - 1} \sum_{i=1}^{n} \bigl((x_i - \bar{x})^2 w_i\bigl)$$
 
 * Desvio Padrão Amostral (para dados agrupados)
-## $$s = \\sqrt{\\frac{1}{\\sum_{i=1}^{n} w_i - 1} \\sum_{i=1}^{n} \\bigl((x_i - \\bar{x})^2 w_i\\bigl)}$$
+## $$s = \sqrt{\frac{1}{\sum_{i=1}^{n} w_i - 1} \sum_{i=1}^{n} \bigl((x_i - \bar{x})^2 w_i\bigl)}$$
 
 * Coeficiente de Variação
-## $$CV = \\frac{\\sigma}{\\mu} \\times 100$$
+## $$CV = \frac{\sigma}{\mu} \times 100$$
 
 * Coeficiente de Variação (para dados agrupados)
-## $$CV = \\frac{\\sigma}{\\mu} \\times 100$$
+## $$CV = \frac{\sigma}{\mu} \times 100$$
 
 * Covariância Populacional
-## $$\\sigma_{xy} = \\frac{1}{n} \\sum_{i=1}^{n} (x_i - \\mu_x)(y_i - \\mu_y)$$
+## $$\sigma_{xy} = \frac{1}{n} \sum_{i=1}^{n} (x_i - \mu_x)(y_i - \mu_y)$$
 
 * Covariância Amostral
-## $$s_{xy} = \\frac{1}{n-1} \\sum_{i=1}^{n} (x_i - \\bar{x})(y_i - \\bar{y})$$
+## $$s_{xy} = \frac{1}{n-1} \sum_{i=1}^{n} (x_i - \bar{x})(y_i - \bar{y})$$
 
 * Coeficiente de Correlação Populacional de Pearson
-## $$\\rho_{xy} = \\frac{\\sigma_{xy}}{\\sigma_x \\sigma_y}$$
+## $$\rho_{xy} = \frac{\sigma_{xy}}{\sigma_x \sigma_y}$$
 
 * Coeficiente de Correlação Amostral de Pearson
-## $$r_{xy} = \\frac{s_{xy}}{s_x s_y}$$
+## $$r_{xy} = \frac{s_{xy}}{s_x s_y}$$
 
 * Somatório dos Quadrados
-## $$SS_x = \\sum_{i=1}^{n} {x_i}^2 - \\frac{(\\sum_{i=1}^{n} x_i)^2}{n}$$
+## $$SS_x = \sum_{i=1}^{n} {x_i}^2 - \frac{(\sum_{i=1}^{n} x_i)^2}{n}$$
 
 * Somatório dos Produtos XY
-## $$SS_{xy} = \\sum_{i=1}^{n} x_i y_i - \\frac{(\\sum_{i=1}^{n} x_i)(\\sum_{i=1}^{n} y_i)}{n}$$
+## $$SS_{xy} = \sum_{i=1}^{n} x_i y_i - \frac{(\sum_{i=1}^{n} x_i)(\sum_{i=1}^{n} y_i)}{n}$$
 
 * Coeficiente de Correlação de Pearson
-## $$r = \\frac{SS_{xy}}{\\sqrt{SS_x \\times SS_y}}$$
+## $$r = \frac{SS_{xy}}{\sqrt{SS_x \times SS_y}}$$
 
 * Z-score Populacional
-## $$z = \\frac{x - \\mu}{\\sigma}$$
+## $$z = \frac{x - \mu}{\sigma}$$
 
 * Z-score Amostral
-## $$z = \\frac{x - \\bar{x}}{s}$$
+## $$z = \frac{x - \bar{x}}{s}$$
 
 * Três Desvios
 
 * Amplitude
 
 * Assimetria
-## $$A = \\frac{1}{n} \\sum_{i=1}^{n} \\Bigl(\\frac{x_i - \\bar{x}}{s}\\Bigl)^3$$
+## $$A = \frac{1}{n} \sum_{i=1}^{n} \Bigl(\frac{x_i - \bar{x}}{s}\Bigl)^3$$
 
 * Curtose
-## $$K = \\frac{1}{n} \\sum_{i=1}^{n} \\Bigl(\\frac{x_i - \\bar{x}}{s}\\Bigl)^4 - 3$$
+## $$K = \frac{1}{n} \sum_{i=1}^{n} \Bigl(\frac{x_i - \bar{x}}{s}\Bigl)^4 - 3$$
 
 * Quartis
-## $$i = \\frac{j(n+1)}{4}$$
-## $$Q_j = x_i + \\biggl(\\frac{j(n+1)}{4} - i\\biggl) (x_{i+1} - x_i)$$
+## $$i = \frac{j(n+1)}{4}$$
+## $$Q_j = x_i + \biggl(\frac{j(n+1)}{4} - i\biggl) (x_{i+1} - x_i)$$
 *para j = 1, 2 e 3*
 
 Além de funções para:
